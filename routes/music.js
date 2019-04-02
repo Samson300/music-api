@@ -1,5 +1,7 @@
 const controller = require('../controllers/music');
 
+const Router = express.Router;
+
 const musicRoutes = Router();
 
 module.exports = musicRoutes;
